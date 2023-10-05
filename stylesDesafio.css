@@ -1,0 +1,129 @@
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.container {
+    height: 450px;
+    display: flex;
+    align-items: center;
+    background-color: #1d2127;
+    border: none;
+    position: relative;
+}
+.div1{
+    z-index: 2;
+    display: block;
+    width: 500px;
+    margin-left: 25px;
+    margin-right: -12px;
+    background-color: #383e45;
+    border: 3px solid #464c55;
+    border-radius: 5px;
+    position: relative;
+}
+.artigo1{
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: white;
+    width: 375px;
+    font-size: 30px;
+
+
+}
+.artigo1::after{
+    content: '';
+    color:#383e45;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid #464c55;
+    background-color: #383e45;
+    right: -10px;
+    top: 38px;
+}
+.timer{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 25px;
+    top: 20px;
+    width: 35px;
+
+
+}
+.div2{
+    z-index: 2;
+    display: block;
+    width: 500px;
+    margin-right: 25px;
+    margin-left: -12px;
+    background-color: #383e45;
+    border: 3px solid #464c55;
+    border-radius: 5px;
+    position: relative;
+}
+.artigo2{
+
+    color: white;
+    font-size: 35px;
+    white-space: nowrap;
+}
+.artigo2::before{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 300px;
+    content:"Matrix:prepare-release-on-service";
+    font-size: 25px;
+    color:white;
+    position:absolute;
+    top: -34px;
+    border: 3px solid #464c55;
+    border-radius: 5px;
+    background-color: #383e45;
+}
+.artigo2::after{
+    content: '';
+    color:#383e45;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 3px solid #464c55;
+    background-color: #383e45;
+    left: -13px;
+    top: 70px;
+
+}
+.show{
+    color: #727980;
+    margin-left:45px;
+    font-size: 25px;
+}
+
+.linha {
+    height: 2px;
+    width: 90px;
+    background-color: #5a6168;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
